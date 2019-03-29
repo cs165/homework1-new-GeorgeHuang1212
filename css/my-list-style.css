@@ -1,3 +1,64 @@
-/**
- TODO(you): Add CSS for the list that you create yourself!
-*/
+body {
+	margin: 0;
+	font-size: 100%;
+}
+
+header {
+	background-image: url("../images/my-list/header.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: auto;
+}
+
+#title {
+	margin: 2em 0px;
+	text-align: center;
+	max-width: 90vw;
+}
+
+#title span {
+	font-family: 'Roboto Slab', serif;
+	color: rgb(35, 35, 35);
+	font-size: 4em;
+	font-weight: bold;
+}
+
+section.block {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5vh;
+}
+
+div.content {
+	width: 66.67vw;
+}
+
+div.numbers {
+	margin-right: 1.5em;
+}
+
+.block h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.numbers h1{
+	color: rgba(0, 0, 0, .25);
+}
+
+.block h1 {
+	color: rgb(35, 35, 35);
+}
+
+.content p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+.content img {
+	width: 66.67vw;
+}
